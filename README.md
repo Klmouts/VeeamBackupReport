@@ -34,7 +34,7 @@ This PowerShell script is designed to generate a comprehensive report of Veeam b
 
 ### Backup Jobs
 
-Name                                    JobType              LastResult StartTime           EndTime             Description                                     
+````Name                                    JobType              LastResult StartTime           EndTime             Description                                     
 ----                                    -------              ---------- ---------           -------             -----------                                     
 Backup1                                Endpoint Backup          Failed 2024-08-17 22:42:41 2024-08-17 22:46:48 Created by  at 18/07/2024 12:11.
 Backup2                                Endpoint Backup          Failed 2024-08-17 23:29:35 2024-08-17 23:33:42 Created by  at 18/07/2024 16:16.
@@ -48,7 +48,7 @@ Name                          Type TotalSpace FreeSpace PercentUsed Description
 ----                          ---- ---------- --------- ----------- -----------            
 Default Backup Repository WinLocal 475.00 GB  257.00 GB 45.89%      Created by Veeam Backup
 
-
+````
 ## Author
 
 - **Name**: Klontian Moutsa
