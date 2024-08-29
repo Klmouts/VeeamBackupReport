@@ -30,11 +30,11 @@ This PowerShell script is designed to generate a comprehensive report of Veeam b
 3. **Review the Report:**
    - The script will output a summary of backup jobs and repository details directly in the PowerShell window.
 
-## Example Output
+````## Example Output
 
 ### Backup Jobs
 
-````Name                                    JobType              LastResult StartTime           EndTime             Description                                     
+Name                                    JobType              LastResult StartTime           EndTime             Description                                     
 ----                                    -------              ---------- ---------           -------             -----------                                     
 Backup1                                Endpoint Backup          Failed 2024-08-17 22:42:41 2024-08-17 22:46:48 Created by  at 18/07/2024 12:11.
 Backup2                                Endpoint Backup          Failed 2024-08-17 23:29:35 2024-08-17 23:33:42 Created by  at 18/07/2024 16:16.
