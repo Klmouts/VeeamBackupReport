@@ -1,7 +1,7 @@
 # Veeam Backup Report Script
 [![PowerShell](https://img.shields.io/badge/PowerShell-blue)](https://learn.microsoft.com/powershell/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](https://github.com/Klmouts/powershell-veeam-backup-check/blob/main/LICENSE)
-[![Status](https://img.shields.io/badge/Status-Stable-success)](https://github.com/powershell-veeam-backup-check/blob/main/VeeamScriptReport.ps1)
+[![Status](https://img.shields.io/badge/Status-Stable-success)](https://github.com/Klmouts/powershell-veeam-backup-check/blob/main/VeeamScriptReport.ps1)
 
 
 ## Overview
