@@ -48,9 +48,9 @@ Configuration Backup                   Configuration Backup     Warning         
 
 ### Backup Repositories
 
-Name                          Type TotalSpace FreeSpace PercentUsed Description            
-----                          ---- ---------- --------- ----------- -----------            
-Default Backup Repository WinLocal 475.00 GB  257.00 GB 45.89%      Created by Veeam Backup
+Name                          Type       TotalSpace    FreeSpace    PercentUsed    Description            
+----                          ----       ----------    ---------    -----------    -----------            
+Default Backup Repository    WinLocal    475.00 GB     257.00 GB       45.89%      Created by Veeam Backup
 
 ````
 ### Feedback
@@ -58,11 +58,14 @@ Found a bug or want a feature? Open an issue or submit a pull request.
 
 ## Author
 
-- **Name**: Klontian Moutsa
+**Name**: Klontian Moutsa
 
 ## License
 
-This project is licensed under the MIT License – see the ![License: MIT](https://github.com/Klmouts/powershell-veeam-backup-check/blob/main/LICENSE) file for details.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
+
+This project is licensed under the [MIT License](./LICENSE).  
+© 2024 Klontian Moutsa. All rights reserved.
 
 ## Notes
 
