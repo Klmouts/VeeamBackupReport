@@ -1,4 +1,5 @@
 # Veeam Backup Report Script
+![PowerShell](https://img.shields.io/badge/PowerShell-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Overview
 
@@ -34,11 +35,11 @@ This PowerShell script is designed to generate a comprehensive report of Veeam b
 
 ### Backup Jobs
 
-Name                                    JobType              LastResult StartTime           EndTime             Description                                     
-----                                    -------              ---------- ---------           -------             -----------                                     
-Backup1                                Endpoint Backup          Failed 2024-08-17 22:42:41 2024-08-17 22:46:48 Created by  at 18/07/2024 12:11.
-Backup2                                Endpoint Backup          Failed 2024-08-17 23:29:35 2024-08-17 23:33:42 Created by  at 18/07/2024 16:16.
-Configuration Backup                   Configuration Backup     Warning                     29/08/2024 10:00:42 Configuration Backup        
+Name                                    JobType              LastResult          StartTime              EndTime                Description                                     
+----                                    -------              ----------          ---------              -------                -----------                                     
+Backup1                                Endpoint Backup          Failed       2024-08-17 22:42:41    2024-08-17 22:46:48    Created by  at 18/07/2024 12:11.
+Backup2                                Endpoint Backup          Failed       2024-08-17 23:29:35    2024-08-17 23:33:42    Created by  at 18/07/2024 16:16.
+Configuration Backup                   Configuration Backup     Warning                             29/08/2024 10:00:42    Configuration Backup        
 
 
 
@@ -49,13 +50,16 @@ Name                          Type TotalSpace FreeSpace PercentUsed Description
 Default Backup Repository WinLocal 475.00 GB  257.00 GB 45.89%      Created by Veeam Backup
 
 ````
+### Feedback
+Found a bug or want a feature? Open an issue or submit a pull request.
+
 ## Author
 
 - **Name**: Klontian Moutsa
 
 ## License
 
-This script is provided as-is. Use it at your own risk. There is no warranty or support provided. Feel free to modify and use it according to your needs.
+This project is licensed under the MIT License – see the LICENSE file for details.
 
 ## Notes
 
