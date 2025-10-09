@@ -59,7 +59,7 @@ Found a bug or want a feature? Open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the MIT License – see the ![License: MIT](https://img.shields.io/badge/License-MIT-green) file for details.
 
 ## Notes
 
