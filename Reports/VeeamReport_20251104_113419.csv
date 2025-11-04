@@ -1,5 +1,0 @@
-﻿"Name","JobType","LastResult","StartTime","EndTime","Description"
-"Agent Backup Job 1","Endpoint Backup","No sessions found","","","Created by BOSSINFO\kmoutsa at 18/07/2024 12:11."
-"Backup Copy Job","Endpoint Backup","No sessions found","","","Created by BOSSINFO\kmoutsa at 18/07/2024 16:16."
-"Default Backup Repository",,,,,"Created by Veeam Backup"
-"Configuration Backup on BOSS-5CD311LJC5","Configuration Backup","Warning",,"04/11/2025 10:00:52","Configuration Backup on BOSS-5CD311LJC5"
