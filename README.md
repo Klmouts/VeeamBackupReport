@@ -10,16 +10,20 @@ This PowerShell script is designed to generate a comprehensive report of Veeam b
 
 ## Features
 
-- **Backup Job Details**: Retrieves information about various types of backup jobs including VM backups, file backups, tape backups, and more.
-- **Office 365 Backup**: Includes details on Office 365 backup jobs if the Veeam Backup for Office 365 module is installed.
-- **Backup to Tape Details**: Provides information about backup jobs that write data to tape.
-- **Configuration Backup**: Reports on configuration backups if available.
-- **Backup Repository Details**: Displays information on backup repositories, including total and free space.
+-  **Backup Job Details** — Retrieves all Veeam job types (VM, endpoint, replication, policy, etc.).
+-  **Configuration Backup Info** — Displays the latest configuration backup job status.
+-  **Repository Statistics** — Reports total/free space and usage percentage.
+-  **Tape Backup Jobs** — Includes backup-to-tape job details if present.
+-  **Office 365 Integration** *(optional)* — Reports on Office 365 backup jobs if module is installed.
+-  **Automatic CSV Export** — Saves a unified timestamped report under `/Reports/`.
 
 ## Requirements
 
-- **Veeam Backup & Replication PowerShell Modules**: Required to interact with Veeam backup jobs and sessions.
-- **Veeam Backup for Office 365 Module**: Required for Office 365 backup job details (optional).
+| Component | Description |
+|------------|-------------|
+| **Veeam Backup & Replication PowerShell Modules** | Required for all backup job and repository data. |
+| **Veeam Backup for Microsoft 365 Module** | Optional; only needed for Office 365 backup details. |
+| **PowerShell 5.1+** | Recommended for full compatibility. |
 
 ## Usage
 
@@ -36,7 +40,7 @@ This PowerShell script is designed to generate a comprehensive report of Veeam b
 
 ````## Example Output
 
-### Backup Jobs
+### === VEEAM BACKUP JOBS ===
 
 Name                                    JobType              LastResult          StartTime              EndTime                Description                                     
 ----                                    -------              ----------          ---------              -------                -----------                                     
@@ -46,7 +50,7 @@ Configuration Backup                   Configuration Backup     Warning         
 
 
 
-### Backup Repositories
+### === BACKUP REPOSITORIES ===
 
 Name                          Type       TotalSpace    FreeSpace    PercentUsed    Description            
 ----                          ----       ----------    ---------    -----------    -----------            
