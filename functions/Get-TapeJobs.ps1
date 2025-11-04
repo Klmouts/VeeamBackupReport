@@ -1,9 +1,26 @@
+<#
+.SYNOPSIS
+    Retrieves details about all Veeam Backup to Tape job details.
+.DESCRIPTION
+    Fetches job name, type, last result, timestamps, and description.
+.AUTHOR
+    Klontian Moutsa
+.DATE
+    2024-08-29
+#>
+
+
 function Get-TapeJobs {
     [CmdletBinding()]
     param ()
 
     Write-Host "Gathering Backup to Tape job details..." -ForegroundColor Cyan
+    #$jobs = Get-VBRTapeJob | Where-Object { $_.Type -eq 'BackupToTape' }
+    try {
     $jobs = Get-VBRTapeJob | Where-Object { $_.Type -eq 'BackupToTape' }
+    } catch {
+        Write-Warning "Unable to retrieve Veeam jobs: $_"
+    }
     $results = @()
 
     foreach ($job in $jobs) {

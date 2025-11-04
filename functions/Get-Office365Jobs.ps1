@@ -1,4 +1,16 @@
-﻿function Get-Office365Jobs {
+﻿<#
+.SYNOPSIS
+    Retrieves details about all Veeam  Office 365 backu job details.
+.DESCRIPTION
+    Fetches job name, type, last result, timestamps, and description.
+.AUTHOR
+    Klontian Moutsa
+.DATE
+    2024-08-29
+#>
+
+
+function Get-Office365Jobs {
     [CmdletBinding()]
     param ()
 

@@ -15,10 +15,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Cleaned console output; removed redundant “Would you like to export” message.
 
 ### Added
-- Automatic creation of `/Reports/` directory if it doesn’t exist.
+- Automated CSV export (no user prompt)
+- Modular structure with individual function files
+- Enhanced README documentation and badges
+- Clean error handling for missing modules
 
 ### Fixed
-- Minor formatting and consistency issues across modules.
+- Skipped Tape Jobs output when no jobs present
+- Duplicate module loading warnings
 
 ---
 

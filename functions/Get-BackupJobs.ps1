@@ -1,3 +1,16 @@
+<#
+.SYNOPSIS
+    Retrieves details about all Veeam backup jobs.
+.DESCRIPTION
+    Fetches job name, type, last result, timestamps, and description.
+.AUTHOR
+    Klontian Moutsa
+.DATE
+    2024-08-29
+#>
+
+
+
 function Get-BackupJobs {
     [CmdletBinding()]
     param ()

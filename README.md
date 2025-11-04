@@ -1,7 +1,7 @@
 # Veeam Backup Report Script
 [![PowerShell](https://img.shields.io/badge/PowerShell-blue)](https://learn.microsoft.com/powershell/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](https://github.com/Klmouts/powershell-veeam-backup-check/blob/main/LICENSE)
-[![Status](https://img.shields.io/badge/Status-Stable-success)](https://github.com/Klmouts/powershell-veeam-backup-check/blob/main/VeeamScriptReport.ps1)
+[![Status](https://img.shields.io/badge/Status-Stable-success)](https://github.com/Klmouts/powershell-veeam-backup-check/blob/main/main.ps1)
 
 
 ## Overview
@@ -38,25 +38,10 @@ This PowerShell script is designed to generate a comprehensive report of Veeam b
 3. **Review the Report:**
    - The script will output a summary of backup jobs and repository details directly in the PowerShell window.
 
-````## Example Output
+## Example Output
 
-### === VEEAM BACKUP JOBS ===
+![Veeam Backup Report Example](./assets/example-output.png)
 
-Name                                    JobType              LastResult          StartTime              EndTime                Description                                     
-----                                    -------              ----------          ---------              -------                -----------                                     
-Backup1                                Endpoint Backup          Failed       2024-08-17 22:42:41    2024-08-17 22:46:48    Created by  at 18/07/2024 12:11.
-Backup2                                Endpoint Backup          Failed       2024-08-17 23:29:35    2024-08-17 23:33:42    Created by  at 18/07/2024 16:16.
-Configuration Backup                   Configuration Backup     Warning                             29/08/2024 10:00:42    Configuration Backup        
-
-
-
-### === BACKUP REPOSITORIES ===
-
-Name                          Type       TotalSpace    FreeSpace    PercentUsed    Description            
-----                          ----       ----------    ---------    -----------    -----------            
-Default Backup Repository    WinLocal    475.00 GB     257.00 GB       45.89%      Created by Veeam Backup
-
-````
 ### Feedback
 Found a bug or want a feature? Open an issue or submit a pull request.
 
