@@ -38,11 +38,11 @@ This PowerShell script is designed to generate a comprehensive report of Veeam b
 3. **Review the Report:**
    - The script will output a summary of backup jobs and repository details directly in the PowerShell window.
 
-## Example Output
+### Example Output
 
 ![Veeam Backup Report Example](./assets/example-output.png)
 
-### Feedback
+## Feedback
 Found a bug or want a feature? Open an issue or submit a pull request.
 
 ## Author
